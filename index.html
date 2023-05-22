@@ -55,16 +55,16 @@
     <main>
       <!-- section 1 hero -->
       <section class="hero">
-        <div class="container-hero">
+        <div class="container">
           <h1 class="title-hero">Effective Solutions for Your Business</h1>
+          <button class="button" type="button">Order Service</button>
         </div>
-        <button class="button" type="button">Order Service</button>
       </section>
 
       <!-- section 2 about -->
       <section class="about">
         <div class="container">
-          <h2 hidden class="title-about">About Us</h2>
+          <h2 class="visually-hidden">About Us</h2>
           <ul class="list about-list">
             <li class="about-item">
               <h3 class="subtitle-about">Strategy</h3>
@@ -103,7 +103,7 @@
         <div class="container">
           <h2 class="activities-title">What are we doing</h2>
           <ul class="activities-list list">
-            <li class="activities-item">
+            <li class="activities-item1">
               <img
                 class="activities-image"
                 src="./images/about/img-1.jpg"
@@ -112,7 +112,7 @@
                 height="300"
               />
             </li>
-            <li class="activities-item">
+            <li class="activities-item2">
               <img
                 class="activities-image"
                 src="./images/about/img-2.jpg"
@@ -121,7 +121,7 @@
                 height="300"
               />
             </li>
-            <li class="activities-item">
+            <li class="activities-item3">
               <img
                 class="activities-image"
                 src="./images/about/img-3.jpg"
@@ -147,8 +147,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="employees">Mark Guerrero</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="employee">
+                <h3 class="employees">Mark Guerrero</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -158,8 +160,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="employees">Tom Ford</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="employee">
+                <h3 class="employees">Tom Ford</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -169,8 +173,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="employees">Camila Garcia</h3>
-              <p class="team-text">Marketing</p>
+              <div class="employee">
+                <h3 class="employees">Camila Garcia</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -190,7 +196,7 @@
     <footer class="footer">
       <div class="container">
         <div class="container-footer">
-          <a class="logo link" href="./index.html"
+          <a class="logo link foot" href="./index.html"
             >Web<span class="logo-footer">Studio</span></a
           >
           <p class="footer-text">

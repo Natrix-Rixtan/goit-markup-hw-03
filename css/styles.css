@@ -80,8 +80,9 @@ h3 {
 
 /* PAGE HEADER */
 
-/* .header {
-} */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .header-div {
   display: flex;
@@ -91,6 +92,7 @@ h3 {
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .header-list {
@@ -162,12 +164,7 @@ h3 {
   padding-bottom: 188px;
   display: flex;
   flex-direction: column;
-}
-
-.container-hero {
-  width: 496px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
 }
 
 .title-hero {
@@ -177,6 +174,9 @@ h3 {
   text-align: center;
   color: var(--white);
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 496px;
 }
 
 .button {
@@ -193,7 +193,7 @@ h3 {
   min-width: 169px;
   margin-left: auto;
   margin-right: auto;
-  border-width: 0px;
+  border: none;
   border-radius: 4px;
   padding: 16px 32px;
 }
@@ -209,6 +209,10 @@ h3 {
 .about {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.visually-hidden {
+  visibility: hidden;
 }
 
 .about-list {
@@ -241,7 +245,7 @@ h3 {
 
 .activities-list {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 
 /* SECTION 4 TEAM */
@@ -259,16 +263,17 @@ h3 {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 
 .team-item {
   background-color: var(--white);
   min-width: 264px;
+  border-radius: 0px 0px 4px 4px;
 }
 
-.team-image {
-  margin-bottom: 32px;
+.employee {
+  padding: 32px 16px;
 }
 
 .employees {
@@ -278,7 +283,6 @@ h3 {
 
 .team-text {
   text-align: center;
-  margin-bottom: 32px;
 }
 
 /* SECTION PORTFOLIO */
@@ -332,12 +336,13 @@ h3 {
   width: 264px;
 }
 
-.logo-footer {
-  color: var(--cloud);
+.foot {
+  display: inline-block;
+  margin-top: 16px;
 }
 
-.footer-text {
-  margin-top: 16px;
+.logo-footer {
+  color: var(--cloud);
 }
 
 .footer-text {
