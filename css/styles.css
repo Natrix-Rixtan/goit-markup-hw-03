@@ -74,7 +74,7 @@ h3 {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
 }
 
 /* PAGE HEADER */
@@ -99,7 +99,6 @@ h3 {
 
 .header-item {
   gap: 40px;
-  padding: 24px 0;
 }
 
 /* .header-item:not(:nth-last-child(-n + 1)) {
@@ -128,6 +127,7 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  padding: 24px 0;
 }
 
 .header-link:hover,
