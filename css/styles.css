@@ -215,7 +215,15 @@ h3 {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .about-list {
@@ -295,13 +303,20 @@ h3 {
   padding-bottom: 100px;
 }
 
-.container-footer {
+/* .container-footer {
   width: 264px;
-}
+} */
 
-.foot {
+.logo-foot {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
   display: inline-block;
-  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .logo-footer {
@@ -310,6 +325,7 @@ h3 {
 
 .footer-text {
   color: var(--cloud);
+  max-width: 264px;
 }
 
 /* PORTFOLIO */
